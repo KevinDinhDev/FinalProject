@@ -215,7 +215,7 @@ class HealthcareControllerTest extends HealthcareServiceTestSupport {
 		HealthcarePhysician request = buildInsertPhysician(1);
 		HealthcarePhysician expected = buildInsertPhysician(1);
 
-		// When: the Physician is added to the patient table
+		// When: the Physician is added to the physician table
 		HealthcarePhysician actual = insertPhysicianForInsertPhysicianTest(request.getPhysicianId(), request);
 
 		// Then: the Physician reuturned is what is expected
